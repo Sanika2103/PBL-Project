@@ -1,0 +1,129 @@
+.cards{
+  display: flex;
+}
+
+.active-card{
+  height: 300px;
+  width:300px;
+/* border:solid 5px;*/
+  margin:10px;
+  box-shadow: 3px 3px 4px 4px #E5E7EB;
+}
+.active-card:hover{
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px #D1D5DB;
+
+}
+.active-color{
+  background-color: royalblue;
+  height:150px;
+  width:300px;
+  margin:0;
+  margin-top: 75px;
+
+}
+.active-button{
+  align-items: center;
+  margin: 0;
+  padding:0;
+  width:85px;
+  border-radius: 40px;
+  margin-left: 110px;
+  background-color: royalblue;
+  cursor: pointer;
+
+
+}
+.active-button:hover{
+  background-color: white;
+  box-shadow: 4px 4px 4px 4px #D1D5DB;
+
+}
+
+
+.attended-card{
+  height: 300px;
+  width:300px;
+  /*border:solid 5px;*/
+  margin: 10px;
+  box-shadow:3px 3px 4px 4px #E5E7EB;
+
+}
+.attended-card:hover{
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px #D1D5DB;
+
+}
+
+.attended-color{
+  background-color: royalblue;
+  height:150px;
+  width:300px;
+  margin:0;
+  margin-top: 75px;
+}
+.attended-button{
+  margin: 0;
+  padding:0;
+  width:110px;
+  border-radius: 40px;
+  margin-left: 100px;
+  background-color: royalblue;
+  cursor:pointer;
+}
+.attended-button:hover{
+  background-color: white;
+  box-shadow: 4px 4px 4px 4px #D1D5DB;
+}
+.result-card{
+  height: 300px;
+  width:300px;
+/*  border:solid 5px;*/
+  margin: 10px;
+  box-shadow:3px 3px 4px 4px #E5E7EB;
+
+}
+.result-card:hover{
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px #D1D5DB;
+
+}
+.result-color{
+  background-color: royalblue;
+  height:150px;
+  width:300px;
+  margin:0;
+  margin-top: 75px;
+}
+.result-button{
+  margin: 0;
+  padding:0;
+  width:85px;
+  margin-left: 110px;
+  border-radius: 40px;
+  background-color: royalblue;
+  cursor:pointer;
+}
+
+.result-button:hover{
+  background-color: white;
+  box-shadow: 4px 4px 4px 4px #D1D5DB;
+}
+
+
+.font{
+  color: white;
+  vertical-align: middle;
+  display: inline-block;
+  padding-left:50px;
+  padding-right: 50px;
+  padding-top: 35px;
+}
+.bfont{
+  color: white;
+  margin-top: 65px;
+}
+
+h3:hover{
+  color: royalblue;
+}

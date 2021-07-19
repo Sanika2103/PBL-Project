@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Developers</title>
+    <style>
+      .cards {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-left: 200px;
+
+        margin-top: 70px;
+      }
+      .card1 {
+        box-sizing: border-box;
+
+        border-bottom: 8px solid rgb(95, 143, 206);
+        width: 25%;
+        height: 100%;
+        box-shadow: 20px 20px 50px rgb(180, 237, 241);
+        border-radius: 20px;
+        margin: 20px;
+        position: relative;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      .card2 {
+        box-sizing: border-box;
+
+        border-bottom: 8px solid rgb(95, 143, 206);
+        width: 25%;
+        height: 100%;
+        box-shadow: 20px 20px 50px rgb(180, 237, 241);
+        border-radius: 20px;
+        margin: 20px;
+        position: relative;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      .card3 {
+        box-sizing: border-box;
+
+        box-shadow: 20px 20px 50px rgb(245, 214, 202);
+        border-bottom: 8px solid rgb(95, 143, 206);
+        width: 25%;
+        height: 100%;
+        box-shadow: 20px 20px 50px rgb(180, 237, 241);
+        border-radius: 20px;
+        margin: 20px;
+        position: relative;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      .card-img-top {
+        width: 85%;
+        height: 250px;
+        text-align: center;
+        margin: 10px;
+        margin-left: 10px;
+        vertical-align: middle;
+        border-radius: 50%;
+      }
+      .card-text {
+        text-align: center;
+        margin: 5px 10px;
+        letter-spacing: 1px;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 40px;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+      .card-title {
+        text-align: center;
+        color: rgb(245, 101, 49);
+        font-weight: 600;
+        font-size: 18px;
+        font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+          sans-serif;
+        margin: 10px;
+        padding: 10px;
+      }
+      .card-text1 {
+        text-align: center;
+        margin: 5px 10px;
+        letter-spacing: 1px;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 20px;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+      .card1:hover {
+        background-color: rgb(1, 29, 37);
+        color: white;
+        cursor: pointer;
+        border-bottom: 8px solid rgb(144, 193, 206);
+        transform: scaleY(1.025);
+
+        transition: 0.3s;
+      }
+
+      .card1:hover .card-title {
+        color: white;
+      }
+      .card2:hover {
+        background-color: rgb(1, 29, 37);
+        color: white;
+        cursor: pointer;
+        border-bottom: 8px solid rgb(144, 193, 206);
+        transform: scaleY(1.025);
+        transition: 0.3s;
+      }
+      .card2:hover .card-title {
+        color: white;
+      }
+      .card3:hover {
+        background-color: rgb(1, 29, 37);
+        color: white;
+        cursor: pointer;
+        border-bottom: 8px solid rgb(144, 193, 206);
+        transform: scaleY(1.025);
+        transition: 0.3s;
+      }
+      .card3:hover .card-title {
+        color: white;
+      }
+      .cards a {
+        text-decoration: none;
+      }
+      .cards1 {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-top: 70px;
+        margin-left: 200px;
+      }
+      .cards1 img {
+        width: 80%;
+        height: 250px;
+        border-radius: 50%;
+      }
+      .card-img-top {
+        border: 5px solid rgb(4, 54, 63);
+      }
+      .cards1 a {
+        text-decoration: none;
+      }
+      .cards :hover > .card-img-top {
+        border: 8px solid rgb(244, 249, 250);
+      }
+      .cards1 :hover > .card-img-top {
+        border: 8px solid rgb(244, 249, 250);
+      }
+      #twit,
+      #link,
+      #insta,
+      #git {
+        font-size: 30px;
+        margin: 5px 10px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        
+      }
+      #twit{
+          color: azure;
+      }
+      .cards :hover > #twit,
+      #link,
+      #insta,
+      #git {
+          color: azure;
+      }
+      #aryan{
+        height: 270px;
+        width: 75%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="cards">
+      <div class="card1">
+        <img src="/Images/Vaishnavi.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Vaishnavi Agrawal</h5>
+          <p class="card-text">First Year IT Branch</p>
+          <br />
+
+          <a
+            href="https://www.linkedin.com/school/pune-institute-of-computer-technology"
+            target="_blank"
+            id="link"
+            class="fab fa-linkedin"
+          ></a>
+        </div>
+      </div>
+      <div class="card2">
+        <img src="/Images/Sanika.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Sanika Patil</h5>
+          <p class="card-text">First Year IT Branch</p>
+          <a
+            href="https://twitter.com/Sanikaa_21?s=08"
+            target="_blank"
+            id="twit"
+            class="fab fa-twitter"
+          ></a>
+          <a
+            href=" https://www.linkedin.com/in/sanika-patil21/"
+            target="_blank"
+            id="link"
+            class="fab fa-linkedin"
+          ></a>
+
+          <a
+            href="https://github.com/sanika2103"
+            target="_blank"
+            id="git"
+            class="fab fa-github"
+          ></a>
+        </div>
+      </div>
+      <div class="card3">
+        <img src="/Images/Manas.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Manas Jadhav</h5>
+          <p class="card-text1">First Year CS Branch</p>
+
+          <a
+            href="https://www.linkedin.com/in/manas-jadhav-357607206/"
+            target="_blank"
+            id="link"
+            class="fab fa-linkedin"
+          ></a>
+          <a
+            href="https://www.instagram.com/manas.jj/"
+            target="_blank"
+            id="insta"
+            class="fab fa-instagram"
+          ></a>
+          <a
+          href="https://github.com/manasjadhav"
+          target="_blank"
+          id="git"
+          class="fab fa-github"
+        ></a>
+        </div>
+      </div>
+    </div>
+    <div class="cards1">
+      <div class="card3">
+        <img src="/Images/Apoorva.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Apurva Sonawane</h5>
+          <p class="card-text1">First Year ENTC Branch</p>
+
+          <a
+            href="https://www.linkedin.com/in/apurva-sonawane-706b75217"
+            target="_blank"
+            id="link"
+            class="fab fa-linkedin"
+          ></a>
+          <a
+            href="https://www.instagram.com/invites/contact/?i=1wuv14bdgwej3&utm_content=eazzs6c"
+            target="_blank"
+            id="insta"
+            class="fab fa-instagram"
+          ></a>
+        </div>
+      </div>
+      <div class="card3">
+        <img src="/Images/Aryan.jpeg" class="card-img-top" id="aryan" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Aryan Mahajan</h5>
+          <p class="card-text1">First Year ENTC Branch</p>
+
+          <a
+            href="https://www.linkedin.com/school/pune-institute-of-computer-technology"
+            target="_blank"
+            id="link"
+            class="fab fa-linkedin"
+          ></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
