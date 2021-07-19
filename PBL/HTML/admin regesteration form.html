@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:5500/form.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin regesteration form</title>
+    <style>
+        .container{
+            border:  2px solid black;
+            color:rgb(5, 5, 5);
+            background: rgb(222 230 243);
+            padding:20px 25px 20px 25px ;
+            margin-left: 130 px auto;
+            position: absolute;
+            left: 570px;
+            top: 250px;
+            width: 400px;
+           
+            }
+            #btn{
+                border: 2px solid black;
+                background: rgb(149, 208, 241);
+                margin-top: 23px;
+                padding: 3px;
+                font-size: 14px;
+                color : black;
+                cursor : pointer;
+                border-radius: 5px;
+                 font-weight: bold;
+                 width: 100px;
+                 height: 40px;
+            }
+            a{
+                text-decoration: none;
+            }    
+            #btn :hover> #btn a{
+                background: rgb(12, 116, 228);
+                color: white;
+            }
+            #btn a{
+                text-decoration: none;
+                
+            }
+            #btn a:hover{
+                background: rgb(51, 139, 233);
+                color: white;
+            }
+
+        input[type="email"]{
+        border : 2px solid black;
+        margin: 10px;
+        padding : 3px;
+        margin : 4px;
+        }
+        
+        input[type="password"]{
+        border : 2px solid black;
+        margin: 10px;
+        padding : 3px;
+        margin : 4px;
+        }
+        #pass{
+            left: 230px;
+            text-align: end;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <form action="http://127.0.0.1:5500/form">
+    <div class="container">
+        <div class="nav">
+            <h3>Admin Registeration</h3>
+        </div>
+        <hr>
+
+        <div class="new">
+            <label for="EMAIL">Enter Email address</label>
+            <input type="email" name="EM" id="EMAIL" placeholder="xyz@gmail.com" required="">
+        </div>
+        
+        <div class="new">
+            <label for="password">Enter password</label>
+            <input type="password" name="pass" id="pasword" placeholder="*******" required="">
+        </div>
+        <button id="btn"><a href="#"> Login</button></a>
+           
+        
+        <a href="http://form.html"  id="pass">Forgot password</a>       
+    </div>
+    </form>
+    <!--<div class="container">
+    <h3>Admin Registeration</h3>
+    <div class="mb-3 row">
+        <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+        <div class="col-sm-10">
+          <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+        </div>
+      </div>
+      <div class="mb-3 row">
+        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+        <div class="col-sm-10">
+          <input type="password" class="form-control" id="inputPassword">
+        </div>
+      </div>
+      <button id="btn"><a href="#"> Login</button></a>
+           
+        
+      <a href="http://form.html"  id="pass">Forgot password</a>  
+    </div>-->
+    
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
